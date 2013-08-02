@@ -1,0 +1,159 @@
+/* line 17, ../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 11, style.scss */
+body {
+  text-align: center;
+}
+
+/* line 15, style.scss */
+#container {
+  width: 960px;
+  margin: 0 auto;
+  text-align: left;
+}
+/* line 20, style.scss */
+#container #mainImg {
+  margin-top: 60px;
+}
+/* line 24, style.scss */
+#container header {
+  height: 60px;
+  width: 960px;
+  background-color: #7F7F7F;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  overflow: hidden;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s;
+}
+/* line 36, style.scss */
+#container header.sc1 {
+  height: 40px;
+}
+/* line 40, style.scss */
+#container header img {
+  float: left;
+  margin-right: 30px;
+  height: 100%;
+}
+/* line 45, style.scss */
+#container header p {
+  line-height: 60px;
+  color: white;
+}
+/* line 48, style.scss */
+#container header p.sc1 {
+  line-height: 40px;
+}
+/* line 51, style.scss */
+#container header p.sc2 {
+  display: none;
+}
+/* line 58, style.scss */
+#container nav {
+  background-color: #7F7F7F;
+  padding: 2px 4px;
+  width: 952px;
+  z-index: 10000;
+}
+/* line 63, style.scss */
+#container nav.sc2 {
+  position: fixed;
+  top: 0px;
+  width: 802px;
+  margin-left: 150px;
+}
+/* line 69, style.scss */
+#container nav a {
+  padding: 8px 20px;
+  width: 133px;
+  background-color: #3A6338;
+  text-align: center;
+  line-height: 36px;
+  text-decoration: none;
+  color: white;
+}
+/* line 77, style.scss */
+#container nav a:hover {
+  background-color: #6DBE7D;
+}
+/* line 81, style.scss */
+#container .box1 {
+  height: 200px;
+  background-color: #FFE0E0;
+}
+/* line 86, style.scss */
+#container .box2 {
+  height: 200px;
+  background-color: #E0FFE0;
+}
+/* line 91, style.scss */
+#container .box3 {
+  height: 200px;
+  background-color: #E0E0FF;
+}

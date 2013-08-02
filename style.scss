@@ -1,0 +1,96 @@
+@import "compass/reset";
+
+// .sc1  少しでもスクロールしたとき
+// .sc2  スクロールしてnavが重なるとき
+
+$contentWidth: 960px;
+$headerHeight: 60px;
+$navWidth: $contentWidth - 150px; // ロゴの幅が130px　+　余白20px
+$navitems: 6;
+
+body {
+  text-align: center;
+}
+
+#container {
+  width: $contentWidth;
+  margin: 0 auto;
+  text-align: left;
+
+  #mainImg {
+    margin-top: $headerHeight;
+  }
+
+  header {
+    height: $headerHeight;
+    width: $contentWidth;
+    background-color: #7F7F7F;
+
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+    &.sc1 {
+      height: 40px;
+    }
+
+    img {
+      float: left;
+      margin-right: 30px;
+      height: 100%;
+    }
+    p {
+      line-height: 60px;
+      color: white;
+      &.sc1 {
+        line-height: 40px;
+      }
+      &.sc2 {
+        display: none;
+      }
+    }
+  }
+
+
+  nav {
+    background-color: #7F7F7F;
+    padding: 2px 4px;
+    width: $contentWidth - 8px;
+    z-index: 10000;
+    &.sc2 {
+      position: fixed;
+      top:0px;
+      width: $navWidth - 8px;
+      margin-left: 150px;
+    }
+    a {
+      padding: 8px 20px;
+      width: ($navWidth / $navitems) - 2px;
+      background-color: #3A6338;
+      text-align: center;
+      line-height: 36px;
+      text-decoration: none;
+      color: white;
+      &:hover {background-color: #6DBE7D;}
+    }
+  }
+
+  .box1 {
+    height: 200px;
+    background-color: #FFE0E0;
+  }
+
+  .box2 {
+    height: 200px;
+    background-color: #E0FFE0;
+  }
+
+  .box3 {
+    height: 200px;
+    background-color: #E0E0FF;
+  }
+
+} //#container
